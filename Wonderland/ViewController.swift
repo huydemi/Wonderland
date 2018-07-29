@@ -84,10 +84,10 @@ class ViewController: UIViewController {
       constant: -10).isActive = true
     
     chapterLabel.setContentHuggingPriority(
-      UILayoutPriorityRequired,
+      UILayoutPriority.required,
       for: .vertical)
     chapterLabel.setContentCompressionResistancePriority(
-      UILayoutPriorityRequired,
+      UILayoutPriority.required,
       for: .vertical)
   }
   

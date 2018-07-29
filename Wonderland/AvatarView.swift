@@ -97,10 +97,10 @@ class AvatarView: UIView {
     
     
     imageView.setContentCompressionResistancePriority(
-      UILayoutPriorityDefaultLow,
+      UILayoutPriority.defaultLow,
       for: .vertical)
     imageView.setContentCompressionResistancePriority(
-      UILayoutPriorityDefaultLow,
+      UILayoutPriority.defaultLow,
       for: .horizontal)
     
     socialMediaView.axis = .vertical

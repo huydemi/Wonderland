@@ -91,7 +91,7 @@ extension ViewController {
   }
   
   
-  func changeChapter(_ gesture:UISwipeGestureRecognizer) {
+  @objc func changeChapter(_ gesture:UISwipeGestureRecognizer) {
     var chapter = chapterNumber
     if gesture.direction == .right {
       chapter -= 1
